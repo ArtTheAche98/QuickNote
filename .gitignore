@@ -1,10 +1,21 @@
-# Python
-__pycache__/
+# Python / Django
 *.pyc
-*.pyo
-*.pyd
+__pycache__/
+.env
+requriements
+db.sqlite3
+identifier.sqlite
 .venv/
-venv/
+uv.lock
 
 # PyCharm
 .idea/
+
+# macOS
+.DS_Store
+
+# Node / React
+node_modules/
+dist/
+QuickNoteFrontend/package-lock.json  # optional
+QuickNoteFrontend/.gitignore
