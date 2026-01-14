@@ -1,8 +1,10 @@
 [project]
 name = "quicknote"
 version = "0.1.0"
-description = "Add your description here"
+description = "Note taking web app"
 requires-python = ">=3.13"
 dependencies = [
     "django>=6.0.1",
+    "djangorestframework>=3.15.0",
+    "django-cors-headers>=4.3.0",
 ]
