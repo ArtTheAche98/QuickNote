@@ -1,0 +1,47 @@
+.note-card .note-text,
+.note-card .note-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 5em;
+  word-break: break-word;
+  line-height: 1.6;
+}
+
+.note-card {
+  overflow: hidden;
+}
+
+.markdown-preview {
+  padding: 16px;
+  border-radius: 8px;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.markdown-preview p {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.markdown-preview code {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+text.secondary {
+    color: black;
+}
